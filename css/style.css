@@ -109,3 +109,27 @@ body {
   color: #fff;
   margin-top: 1vw;
 }
+
+/* responsive */
+@media (max-width: 480px) {
+  .todo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 8vw;
+  }
+  .todo__body {
+    display: flex;
+    flex-direction: column;
+    margin: 4vw;
+  }
+  .todo__input {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .todo__list {
+    margin-top: 2.5vw;
+  }
+}
